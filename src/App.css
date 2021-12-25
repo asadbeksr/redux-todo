@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.App input {
+  text-align: center;
+  height: 30px;
+  width: 300px;
+}
+div button {
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 5px;
+  width: 152px;
+  display: inline;
+  height: 50px;
+  background-color: blue;
+  color: azure;
+  border: 1px solid white;
+}
+.tabs {
+  margin-top: 25px;
+}
+.active-btn {
+  border-radius: 0 !important;
+  background-color: rgb(24, 228, 17);
+}
+.finished-btn {
+  background-color: tomato;
+}
+.list {
+  font-size: 25px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.delete {
+  cursor: pointer;
+}
+.active {
+  cursor: pointer;
+}
+.finish {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.finish_btn {
+  background-color: tomato !important;
+}
